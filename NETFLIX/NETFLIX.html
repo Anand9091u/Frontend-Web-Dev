@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .container1{
+            position: relative;
+
+        }
+        .container2{
+            background-color: rgba(0, 0, 0, 0.605);
+            height: 1125px;
+            position: relative;
+            top: -1130px;
+            display: flex;
+            justify-content: space-between;
+            width: 2000px;
+            overflow: hidden;
+        }
+
+        .img2{
+            margin-left: 250px;
+            margin-top: 25px;
+
+
+        }
+        .select select{
+            margin-top: 50px;
+            margin-left: 700px;
+            width: 150px;
+            height: 40px;
+            border-radius: 6px;
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            background-color: transparent;
+            font-size: 20px;
+           
+            
+        }
+        .button button{
+            margin-top: 46px;
+            margin-right: 40px;
+            font-size: 20px;
+            height: 45px;
+            width: 100px;
+            border-radius: 6px;
+            position: relative;
+            left: -230px;
+            background-color: rgb(227, 12, 12);
+            color: white;
+        
+        }
+        .container3{
+            background-color: rgba(0, 0, 0, 0);
+            height: 2250px;
+            position: relative;
+            top: -2260px;
+            display: flex;
+            justify-content: space-between;
+            width: 2000px;
+
+        }
+        .textarea100{
+            color: white;
+            margin-top: 280px;
+            margin-left: 250px;
+            font-size: 70px;
+            font-weight: 650;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .textarea1{
+            color: white;
+            font-size: 35px;
+            font-weight: 400;
+            position: relative;
+            top: -100px;
+        
+            
+        }
+        .textarea2{
+            color: white;
+            font-size: 30px;
+            font-weight: 400;
+            position: relative;
+            top: -120px;
+            
+
+        }
+        .input{
+            position: relative;
+            top: -100px;
+            width: 520px;
+            font-size: 20px;
+            padding: 20px;
+            margin-right: 300px;
+            background: transparent;
+            backdrop-filter: blur(2px);
+        }
+        .button1 button{
+            position: relative;
+            left: 300px;
+        
+            top: -200px;
+            /* height: 100px; */
+            font-size: 30px;
+            padding: 17px;
+            width: 310px;
+            border-radius: 5px;
+            background-color: rgba(255, 0, 0, 0.822);
+            color: white;
+        }
+
+        .container4{
+            position: relative;
+            background-color: black;
+            height: 800px;
+            top: -3590px;
+            display: flex;
+            justify-content: space-between;
+            width: 1982px;
+            border: solid 10px rgb(46, 42, 42);
+        }
+         .textarea3{
+            color: white;
+            font-size: 70px;
+            font-weight: 650;
+            position: relative;
+            top: 260px; 
+            left: 280px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .textarea4{
+            color: white;
+            font-size: 30px;
+            font-weight: 400;
+            position: relative;
+            top: 280px;
+            left: 280px;
+            font-weight: 500;
+        }
+        .img3{
+            position: relative;
+            right: 105px;
+            top: 100px;
+        
+            
+        }
+        .video{
+            position: relative;
+            right: 350px;
+            display: flex;
+            top: 200px;
+           left:550px;
+           height: 270px;
+           width: 2000px;
+        }
+
+        .container5{
+            position: relative;
+            background-color: black;
+            height: 800px;
+            top: -3590px;
+            display: flex;
+            justify-content: space-between;
+            width: 1982px;
+            border: solid 8px rgb(46, 42, 42);
+
+        }
+
+        .img4{
+            position: relative;
+            top: 150px;
+            left:270px;
+        }
+
+        .textarea5{
+            position: relative;
+            color: white;
+            left: 700px;
+            top: -400px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 70px;
+            font-weight: 1000;
+
+        }
+
+        .textarea6{
+            color: white;
+            font-size: 30px;
+            font-weight: 400;
+            position: relative;
+            top: -380px;
+            left: 710px;
+            font-weight: 500;
+        }
+
+        .container6{
+            position: relative;
+            background-color: black;
+            height: 800px;
+            top: -3590px;
+            display: flex;
+            justify-content: space-between;
+            width: 1982px;
+            border: solid 8px rgb(46, 42, 42);
+
+        }
+
+        .textarea7{
+            color: white;
+            font-size: 100px;
+            font-weight: 400;
+            position: relative;
+            top: 280px;
+            left: 220px;
+            font-weight: 500;
+
+        }
+
+        .textarea8{
+            color: white;
+            font-size: 30px;
+            font-weight: 400;
+            position: relative;
+            top: 300px;
+            left: 230px;
+            font-weight: 500;
+         
+
+        }
+
+        .video1{
+            position: relative;
+            width: 50px;
+            height: 90px;
+            right: 400px;
+            top: 60px;
+            left: 1300px;
+
+        }
+
+        .img5{
+            position: relative;
+            left: 1180px;
+            top: -80px;
+        }
+
+        .container7{
+            position: relative;
+            background-color: black;
+            height: 800px;
+            top: -3590px;
+            display: flex;
+            justify-content: space-between;
+            width: 1982px;
+            border: solid 8px rgb(46, 42, 42);
+
+        }
+
+        .img6{
+            position: relative;
+            top: 100px;
+            left: 250px;
+
+        }
+        .textarea9{
+            color: white;
+            font-size: 100px;
+            font-weight: 400;
+            position: relative;
+            top: -390px;
+            left: 750px;
+            font-weight: 500;
+            
+
+        }
+        .textarea10{
+            color: white;
+            font-size: 30px;
+            font-weight: 400;
+            position: relative;
+            top: -390px;
+            left: 750px;
+            font-weight: 500;
+
+        }
+
+        .container8{
+            background-color: rgb(0, 0, 0);
+            height: 1600px;
+            position: relative;
+            top: -3590px;
+            display: flex;
+            justify-content: space-between;
+            width: 1986px;
+            border: solid 6px rgb(46, 42, 42);
+            overflow: hidden;
+        }
+        .textarea11{
+            color: white;
+            font-size: 60px;
+            font-weight: 900;
+            top: 120px;
+            position: relative;
+        
+            left: 450px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        .asked{
+            margin: 60px auto;
+            width: 100%;
+            max-width: 750px;
+
+        }
+        .asked li{
+            list-style: none;
+            width: 100%;
+            padding: 5px;
+        }
+        .asked li label{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            font-size: 30px;
+            font-weight: 500;
+            background: #303030;
+            margin-bottom: 2px;
+            cursor: pointer;
+            position: relative;
+            color: rgb(254, 254, 254);
+            height: 60px;
+            right: 450px;
+            top: 280px;
+            width: 1000px;
+                        
+            
+        }
+        label::after{
+            content: '+';
+            font-size: 34px;
+            position: absolute;
+            right: 20px;
+            transition: transform 0.5s;
+           
+
+        }
+        input[type="radio"]{
+            display: none;
+            
+            
+        }
+        .asked .content{
+            background: #303030;
+            text-align: left;
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s, padding 0.5s;
+        }
+
+        .asked input[type="radio"]:checked + label + .content{
+            max-height: 70px;
+            padding: 50px 30px;
+            margin: 15px;
+            border: 100px;
+            
+
+        }
+        .asked input[type="radio"]:checked + label::after{
+            transform: rotate(135deg);
+        }
+        
+        .content{
+            position: relative;
+            display: flex;
+            color: white;
+            font-size: 20px;
+            top: 284px;
+            right: 460px;
+            width: 970px;
+
+        }
+        .textarea12{
+            color: rgb(255, 255, 255);       
+            font-size: 30px;
+            bottom: -1240px;
+            position: relative;
+            right: 1200px;
+         }
+         .button2 button{
+            position: relative;
+            top: 1300px;
+            right: 2300px;
+            font-size: 30px;
+            padding: 17px;
+            width: 310px;
+            border-radius: 5px;
+            background-color: rgba(255, 0, 0, 0.822);
+            color: white;
+        }
+        .input5 {
+            position: relative;
+            top: 1300px;
+            font-size: 20px;
+            padding: 20px;
+            margin-right: 300px;
+            background: transparent;
+            backdrop-filter: blur(2px);
+            height: 30px;
+            right: 2100px;
+        }
+
+        .input8{
+            position: relative;
+            top: 80px;
+            width: 520px;
+            font-size: 20px;
+            padding: 20px;
+            margin-right: 300px;
+            background: transparent;
+            backdrop-filter: blur(2px);
+            left: 100px;
+        }
+        .button8 button{
+            position: relative;
+            left: 700px;
+            top: 15px;
+            font-size: 30px;
+            padding: 17px;
+            width: 310px;
+            border-radius: 5px;
+            background-color: rgba(255, 0, 0, 0.822);
+            color: white;
+        }
+        .container9{
+            width: 400px;
+            height: 110px;
+            border-radius: 15px;
+            background-color:black;
+            position: relative;
+            top: -7150px;
+            right: -370px;
+            padding: 10px;
+            border: solid rgb(0, 0, 0) 1px;
+            display: flex;
+        }
+        h3{
+            margin-left: 20px;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        .container10{
+            position: relative;
+            background-color: rgb(0, 0, 0);
+            height: 700px;
+            top: -3850px;
+            display: flex;
+            justify-content: space-between;
+            width: 1982px;
+            border: solid 8px rgb(19, 19, 19);
+            
+        }
+        .phone{
+            position: relative;
+            top: 90px;
+            font-size: 25px;
+            left: 250px;
+            color: white;
+        }
+        .nav a{
+            position: relative;
+            top: 100px;
+            font-size: 20px;
+            left: 250px;
+            right: -500px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+
+        }
+        
+        .nav1 a{
+            position: relative;
+            top: 150px;
+            font-size: 20px;
+            left: -20px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+
+
+        }
+        
+        .nav2 a{
+            position: relative;
+            top: 150px;
+            font-size: 20px;
+            right: 270px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+
+        }
+        .nav3 a{
+            position: relative;
+            top: 150px;
+            font-size: 20px;
+            right: 500px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+          
+        }
+
+        #AK{
+            margin-top: 130px;
+            margin-left: 240px;
+            width: 150px;
+            height: 40px;
+            border-radius: 6px;
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            background-color: transparent;
+            font-size: 20px;
+            background-color: rgba(50, 47, 47, 0.491);
+           
+
+        }
+        #AK1{
+            position: relative;
+            color: white;
+            margin-left: 240px;
+            top: 10px;
+            
+        }
+        @media screen and (max-width: 767px) {
+            .container1{
+                position: relative;
+                height: 750px;
+                width: 350px;
+                overflow: hidden;
+            }
+            .container2{
+                position: relative;
+                overflow: hidden;
+            }
+            .img2{
+                position: relative;
+                left: -250px;
+                top: 400px;
+                size: 5px;
+            }
+            .select select{
+                position: relative;
+                left: -1230px;
+                top: -40px;
+                width: 100px;
+                height: 40px;
+
+            }
+            .button button{
+               position: relative;
+               left: -1630px;
+               top: 20px;
+               width: 90px;
+               height: 40px;
+            }
+            .textarea100{
+                position: relative;
+                max-width: 0px;
+                font-size: 10px;
+                left: -200px;
+                top: -30px;
+                position: absolute;
+            }
+            .textarea1{
+                position: relative;
+                top: 150px;
+                font-size: 20px;
+                left: 100px;
+                position: absolute;
+            }
+            .textarea2{
+                position: relative;
+                position: absolute;
+                top: 200px;
+                font-size: 10px;
+                left: 70px;
+            }
+            .input{
+               position: relative;
+               font-size: 10px;
+               width: 80px;
+               left: 70px;
+               top: 180px;
+           
+        }
+            .button1 button{
+              position: relative;
+              font-size: 10px;
+              width: 80px;
+              left: 70px;
+              top: 130px;
+            
+            
+        }
+
+            
+            
+        }
+         
+       
+
+                
+           
+       
+
+
+        
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<body>
+    
+
+<div class="container1">
+    <div class="img1"><img src="netflix.jpg" ></div>
+
+</div>
+<div class="container2">
+        <div class="img2"><img src="net2.png" width="210px"></div>
+        <div class="select">
+            <select name="" id="">
+              <option value="English">English</option>
+             <option value="Hindi">Hindi</option>
+            </select>
+        </div>        
+        <div class="button"><button>Sign In</button></div>
+</div>
+<div class="container3">
+    <div class="textarea100"><p>Enjoy big movies, hit series and more from  <br>₹ 149.</p><br><span class="textarea1">Join today. Cancel anytime.</span><br><span class="textarea2">Ready to watch? Enter your email to create or restart your membership.</span><br>
+        <input type="text" class="input" placeholder="Enter Email"><br><div class="button1"><button>Get Started ></button></div></div>
+
+</div>
+<div class="container4">
+    <div><span class="textarea3"><pre>Enjoy on your TV</pre></span> <br><span class="textarea4"><pre>Watch on smart TVs, PlayStation, Xbox,<br>Chromecast, Apple TV, Blu-ray players and more.</pre></span></div>
+    <div class="video"><video src="video.mp4" controls autoplay muted ></video></div>
+    <div class="img3"> <img src="tv.png" alt=""></div>
+   
+</div>
+<div class="container5">
+    <div class="img4"> <img src="mobile.jpg" alt=""><br><span class="textarea5">Download your <br> shows to watch <br> offline</span><br><div><span class="textarea6">Save your favourites easily and always have <br> something to watch.</span></div></div>
+</div>
+
+<div class="container6">
+    <div><span class="textarea7">Watch everywhere</span> <br><span class="textarea8">Stream unlimited movies and TV shows on your <br> phone, tablet, laptop, and TV.</span>
+        <div class="video1"><video src="video1.mp4" width="400px" controls autoplay muted></video></div>
+        <div class="img5"><img src="device.png" alt=""></div></div>
+       
+</div>
+
+<div class="container7">
+    <div class="img6"><img src="chil.png" alt=""><br><div><span class="textarea9">Create profiles for <br> kids</span><br><div><span class="textarea10">Send children on adventures with their favourite <br> characters in a space made just for them—free with <br> your membership.</span></div></div></div>
+</div>
+
+<div class="container8">
+    <div><span class="textarea11"><pre>Frequently Asked Questions</pre></span> </div>
+    <ul class="asked">
+        <li>
+            <input type="radio" name="asked" id="first">
+            <label for="first">What is Netflix?</label>
+            <div class="content"><p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, <br> documentaries and more – on thousands of internet-connected devices.
+
+                You can watch as much as you want, whenever you want, without a single ad – all for one low <br> monthly price. There's always something new to discover, and new TV shows and movies are added <br> every week!</p></div>
+        </li>
+
+        <li>
+            <input type="radio" name="asked" id="second">
+            <label for="second">How much does Netflix cost?</label>
+            <div class="content"><p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed <br> monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p></div>
+        </li>
+
+        <li>
+            <input type="radio" name="asked" id="third">
+            <label for="third">Where can I watch?</label>
+            <div class="content"><p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at <br> netflix.com from your personal computer or on any internet-connected device that offers the Netflix <br> app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use <br> downloads to watch while you're on the go and without an internet connection. Take Netflix with you <br> anywhere.</p></div>
+        </li>
+
+        <li>
+            <input type="radio" name="asked" id="fourth">
+            <label for="fourth">How do I  cencel?</label>
+            <div class="content"><p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your <br> account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p></div>
+        </li>
+
+        <li>
+            <input type="radio" name="asked" id="fifth">
+            <label for="fifth">What can I watch on Netflix?</label>
+            <div class="content"><p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning <br> Netflix originals, and more. Watch as much as you want, anytime you want.</p></div>
+        </li>
+
+        <li>
+            <input type="radio" name="asked" id="sixth">
+            <label for="sixth">Is Netflix good for kids?</label>
+            <div class="content"><p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy <br> family-friendly TV shows and films in their own space.
+
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of <br> content kids can watch and block specific titles you don’t want kids to see.
+                </p></div>
+        </li>
+    </ul>
+    <div class="textarea12"><pre>Ready to watch? Enter your email to create or restart your membership.</pre><input type="text" class="input8" placeholder="Enter Email"><div class="button8"><button>Get Started ></button></div></div></div>
+    
+
+</div>
+
+</div>
+    
+    
+    <div class="container9">
+        <img src="boxshot.png" width="70px">
+        <h3 style="color: white;">Stranger Things <br><a href="" style="color: blue;">Downloading...</a></h3>
+    </div>
+
+    <div class="container10">
+        
+        <div class="nav">
+                <nav><a href="Questions? Call 000-800-919-1694">Questions? Call 000-800-919-1694</a></nav>
+                <br>
+                <br>
+                <nav><a href="FAQ">FAQ</a></nav>
+                <br>
+                <nav><a href="Investor Relations">Investor Relations</a></nav>
+                <br>
+                <nav><a href="Privacy">Privacy</a></nav>
+                <br>
+                <nav><a href="Speed Test">Speed Test</a></nav>
+                <br>
+                <nav><select name="" id="AK">
+                    <option value="English">English</option>
+                   <option value="Hindi">Hindi</option>
+                  </select></nav>
+                  <br>
+                  <nav id="AK1"><h4>Netflix India</h4></nav>
+                
+                
+        </div>
+           <br>
+            <div class="nav1">
+                <nav><a href="Help Centre">Help Centre</a></nav>    
+                <nav><a href="Jobs"></a>Jobs</nav>
+                <br>
+                <nav><a href="Cookie Preferences">Cookie Preferences</a></nav>
+                <br>
+                <nav><a href="Legal Notices">Legal Notices</a></nav>
+            </div>
+            <br>
+            <div class="nav2">
+                <nav><a href="Account">Account</a></nav>
+                <br>
+                <nav><a href="Ways to Watch">Ways to Watch</a></nav>
+                <br>
+                <nav><a href="Corporate Information">Corporate Information</a></nav>
+                <br>
+                <nav><a href="Only on Netflix">Only on Netflix</a></nav>
+            </div>
+            <br>
+            <div class="nav3">
+                <nav><a href="Media Centre">Media Centre</a></nav>
+                <br>
+                <nav><a href="Terms of Use">Terms of Use</a></nav>
+                <br>
+                <nav><a href="Contact Us">Contact Us</a></nav>
+            </div>
+            
+        
+    </div>
+    
+
+
+
+
+</body>
+</html>
